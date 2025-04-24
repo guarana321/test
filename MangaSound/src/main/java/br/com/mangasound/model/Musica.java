@@ -1,4 +1,4 @@
-package model;
+package br.com.mangasound.model;
 
 public class Musica {
     private String nome;

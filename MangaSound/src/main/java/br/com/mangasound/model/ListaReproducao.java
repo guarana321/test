@@ -67,7 +67,7 @@ public class ListaReproducao {
         NodoMusica atual = primeiro;
         int index = 0;
         while (atual != null) {
-            System.out.println(index + " - " + atual.getMusica().getNome());
+            System.out.println(index + " - " + atual.getMusica());
             atual = atual.getProximo();
             index++;
         }
